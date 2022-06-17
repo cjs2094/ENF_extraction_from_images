@@ -1,3 +1,7 @@
+<Introduction>
+This respository includes codes for the entropy minimization method and the curve fitting method proposed in this paper for a two-level ENF presence–classification test.
+
+
 <README for folder test_real>
 - Download "images_test_50Hz and images_test_60Hz, upzip them, and put them under datasets folder.
 - Each dataset has 10 sets of photos organized by folders where each set folder containing images taken under seven different shutter speed levels.
