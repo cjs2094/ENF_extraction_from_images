@@ -1,8 +1,8 @@
 # Code for Invisible Geolocation Signature Extraction From a Single Image
 
-This respository includes an implementation of the following paper:
+This respository includes an implementation of the following paper (**DOI**: [10.1109/TIFS.2022.3185775](https://doi.org/10.1109/TIFS.2022.3185775)):
 
-[Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874) **DOI**: [10.1109/TIFS.2022.3185775](https://doi.org/10.1109/TIFS.2022.3185775)
+[Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874) 
 ```bibtex
 @article{choi2022invisible,
   title={Invisible Geolocation Signature Extraction From a Single Image},
