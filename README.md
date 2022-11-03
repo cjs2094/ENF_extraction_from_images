@@ -2,7 +2,7 @@
 
 This respository includes an implementation of the following paper:
 
-[Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874)
+[Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874) **DOI**: [10.1109/TIFS.2022.3185775](https://doi.org/10.1109/TIFS.2022.3185775)
 ```bibtex
 @article{choi2022invisible,
   title={Invisible Geolocation Signature Extraction From a Single Image},
@@ -14,7 +14,7 @@ This respository includes an implementation of the following paper:
   month={Jun}
 }
 ```
-[DOI: 10.1109/TIFS.2022.3185775](https://doi.org/10.1109/TIFS.2022.3185775)
+
 
 If you used any of the code or the dataset, please cite our paper as listed above
 
