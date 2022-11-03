@@ -2,7 +2,7 @@
 
 This respository includes an implementation of the following paper (**DOI**: [10.1109/TIFS.2022.3185775](https://doi.org/10.1109/TIFS.2022.3185775)):
 
-J. Choi, C.-W. Wong, A. Hajj-Ahmad, M. Wu, and Y. Ren, `'[Invisible geolocation signature extraction from a single image](https://ieeexplore.ieee.org/document/9804874),'` *IEEE Transactions on Information Forensics and Security*, pp. 2598–2613, Jun. 2022.
+J. Choi, C.-W. Wong, A. Hajj-Ahmad, M. Wu, and Y. Ren, "[Invisible geolocation signature extraction from a single image](https://ieeexplore.ieee.org/document/9804874)," *IEEE Transactions on Information Forensics and Security*, pp. 2598–2613, Jun. 2022.
 
 ```bibtex
 @article{choi2022invisible,
