@@ -1,7 +1,11 @@
-# ENF_image
+# Code for Invisible Geolocation Signature Extraction From a Single Image
 
-This respository includes codes for the entropy minimization method and the curve fitting method proposed in this [paper](https://www.techrxiv.org/articles/preprint/Invisible_Geolocation_Signature_Extraction_From_a_Single_Image/18941414) for a two-level ENF presence–classification test.
+This respository includes an implementation of the following paper:
 
+[Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874)
+
+## Requirement
+Matlab
 
 ## README for folder `test_real`:
 - Download `images_test_50Hz` and `images_test_60Hz`, upzip them, and put them under datasets folder.
@@ -29,3 +33,20 @@ This respository includes codes for the entropy minimization method and the curv
 - The script `main1_syn_test_imgs` performs the curve fitting method and the entropy minimization method.
 - Based on .mat files generated from the script `main1_real_testImgs`, the script `main2_2_syn_draw_figs_roc_curve_1stLevel` and `main2_3_syn_draw_figs_roc_curve_2ndLevel` analayze experimental results of the 1st level and the 2nd level by drawing ROC curves. 
 
+
+## Citation
+If you used any of the code or the dataset, please cite our paper as:
+
+@article{choi2022invisible,
+  title={Invisible Geolocation Signature Extraction From a Single Image},
+  author={Choi, Jisoo and Wong, Chau-Wai and Hajj-Ahmad, Adi and Wu, Min and Ren, Yanpin},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={17},
+  pages={2598--2613},
+  year={2022},
+  publisher={IEEE}
+}
+DOI: 10.1109/TIFS.2022.3185775
+
+## Contact
+Jisoo Choi, email: [cjs2094@gmail.com](cjs2094@gmail.com)
