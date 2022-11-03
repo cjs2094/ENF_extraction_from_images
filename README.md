@@ -46,21 +46,5 @@ Matlab
 - The script `main1_syn_test_imgs` performs the curve fitting method and the entropy minimization method.
 - Based on .mat files generated from the script `main1_real_testImgs`, the script `main2_2_syn_draw_figs_roc_curve_1stLevel` and `main2_3_syn_draw_figs_roc_curve_2ndLevel` analayze experimental results of the 1st level and the 2nd level by drawing ROC curves. 
 
-
-## Citation
-If you used any of the code or the dataset, please cite our paper as:
-
-
-```bibtex
-@inproceedings{shiohara2022detecting,
-  title={Detecting Deepfakes with Self-Blended Images},
-  author={Shiohara, Kaede and Yamasaki, Toshihiko},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={18720--18729},
-  year={2022}
-}
-```
-
-
 ## Contact
 Jisoo Choi, email: [cjs2094@gmail.com](cjs2094@gmail.com)
