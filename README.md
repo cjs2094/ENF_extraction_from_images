@@ -4,6 +4,21 @@ This respository includes an implementation of the following paper:
 
 [Invisible Geolocation Signature Extraction From a Single Image](https://ieeexplore.ieee.org/document/9804874)
 
+```bibtex
+@article{choi2022invisible,
+  title={Invisible Geolocation Signature Extraction From a Single Image},
+  author={Choi, Jisoo and Wong, Chau-Wai and Hajj-Ahmad, Adi and Wu, Min and Ren, Yanpin},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={17},
+  pages={2598--2613},
+  year={2022},
+  month={Jun}
+}
+```
+DOI: 10.1109/TIFS.2022.3185775
+
+If you used any of the code or the dataset, please cite our paper as listed above
+
 ## Requirement
 Matlab
 
@@ -37,16 +52,17 @@ Matlab
 ## Citation
 If you used any of the code or the dataset, please cite our paper as:
 
-@article{choi2022invisible,
-  title={Invisible Geolocation Signature Extraction From a Single Image},
-  author={Choi, Jisoo and Wong, Chau-Wai and Hajj-Ahmad, Adi and Wu, Min and Ren, Yanpin},
-  journal={IEEE Transactions on Information Forensics and Security},
-  volume={17},
-  pages={2598--2613},
-  year={2022},
-  publisher={IEEE}
+
+```bibtex
+@inproceedings{shiohara2022detecting,
+  title={Detecting Deepfakes with Self-Blended Images},
+  author={Shiohara, Kaede and Yamasaki, Toshihiko},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={18720--18729},
+  year={2022}
 }
-DOI: 10.1109/TIFS.2022.3185775
+```
+
 
 ## Contact
 Jisoo Choi, email: [cjs2094@gmail.com](cjs2094@gmail.com)
