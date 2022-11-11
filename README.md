@@ -29,7 +29,7 @@ Matlab
 [...](...), upzip, and put them under the directory `./test_syn_release/`
 * If you want to examine your own image template(s), get your own image templates(s) ready and follow the procedures below
   * Create a folder named `'raw_imgs'`under the directory `./test_syn_release/` and put your image templates into the folder `'raw_imgs'`
-  * Run the first two sections of the script named `'main1_testImgs.m'`, which will generate folder named `'imgs_with_syn_enf'` under `./test_syn_release/`
+  * Run the first two sections of the script named `'main1_testImgs.m'`, which will make folders named  `'mat_results'` and `'imgs_with_syn_enf'` under `./test_syn_release/`
   * Generate three .txt files for each image template and put them into each subfolder named the filename of each image template under folders `res_synthetic_6imgs_50Hz` and `res_synthetic_6imgs_60Hz`. Each .txt file should contain the following:
 	1) `camera_model.txt`: should include a camera model assumed to be used for taking images
 	2) `nonsmooth_region.txt`: should include the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively
