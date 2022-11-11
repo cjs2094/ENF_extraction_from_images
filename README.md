@@ -31,8 +31,12 @@ Matlab
   * Run the first two sections of the script named `'main1_testImgs.m'`, which will generate folder named `'imgs_with_syn_enf'` under `./test_syn_release/`
   * Generate three .txt files for each image template and put them into each subfolder named the filename of each image template under folders `res_synthetic_6imgs_50Hz` and `res_synthetic_6imgs_60Hz`. Each .txt file should contain the following:
 	1) `camera_model.txt`: should include a camera model assumed to be used for taking images
-	2) `nonsmooth_region.txt`: should include the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
+	2) `nonsmooth_region.txt`: should include the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively
 	3) `smooth_region.txt`: should include the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
+   * Open the script named `'main1_testImgs.m'` and run the third and fourth sections
+
+## Usage
+* For the dataset used in the paper, open each script file named `'main2_fig11_drawRocCurves.m'`, `'main3_fig6a_examEntropyChange.m'`, `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'`, `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'`, and `'main5_fig8_genHistsForEstimates.m'` and run sequentially each section divided by %%
 
 
 ## README for folder `test_syn`:
