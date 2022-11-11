@@ -51,7 +51,7 @@ Matlab
 - Before running the section `step 2) baseline method - curve fitting` in the script `main1_syn_test_imgs`, please generate and manually put three .txt files (`camera_model.txt`, `nonsmooth_region.txt`, and `smooth_region.txt`) into each set folder under folders `res_synthetic_6imgs_50Hz` and `res_synthetic_6imgs_60Hz`. Each .txt file should contain the following:
 	1) `camera_model.txt`: includes a camera model used for taking images
 	2) `nonsmooth_region.txt`: includes the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
-	3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
+	3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively
 
 
 ## README for folder `test_real`:
