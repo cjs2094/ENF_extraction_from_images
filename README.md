@@ -35,13 +35,15 @@ Matlab
 	3) `smooth_region.txt`: should include the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
    * Open the script named `'main1_testImgs.m'` and run the third and fourth sections
 
+
 ## Usage
-* For the dataset used in the paper, open each script file named `'main2_fig11_drawRocCurves.m'`, `'main3_fig6a_examEntropyChange.m'`, `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'`, `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'`, and `'main5_fig8_genHistsForEstimates.m'` and run sequentially each section divided by %%
+* For the dataset used in the paper, open each following script and run sequentially each section divided by %%
    * `'main2_fig11_drawRocCurves.m'` draws roc curves for the first and second-level decisions
    * `'main3_fig6a_examEntropyChange.m'` generates a histogram of column's entropy increase due to ENF trace embedding
    * `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the slope-intercept form
    * `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the two-point form
    * `'main5_fig8_genHistsForEstimates.m'` generates histograms for estimates obtained from the entropy minimization
+
 
 ## README for folder `test_syn`:
 - Folder `raw_imgs` contains six template images.
