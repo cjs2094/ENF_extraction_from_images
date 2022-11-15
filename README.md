@@ -35,11 +35,15 @@ Matlab
 	3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively
 
 
-## README for folder `test_real`:
-- Download `images_test_50Hz` and `images_test_60Hz`, upzip them, and put them under datasets folder.
-  - Each dataset has ten sets of photos organized by folders where each set folder containing images taken under seven different shutter speed levels.
-  - Each set folder has seven images whose file name has the form "stepx_y" where x represents the ENF strength having a positive integer (Larger x contains a stronger ENF trace) and y is a reciprocal of the shutter speed used for the corresponding image.
-  - Each set folder has three .txt files:
+## Preparation
+* If you want to play with the datasets used in the paper, please download the mat datasets named `'mat_results.zip'` and `'mat_results_preModel.zip'` and image dataset named `'datasets.zip'` from the following URL:
+
+[...](...), upzip, and put them under the directory `./code_forTestingRealImgs_release/`
+* If you want to examine your own image(s), get your own image templates(s) ready and follow the procedures below
+  * Create a folder named `'datasets'` under the directory `./code_forTestingRealImgs_release/` and create two subfolders named `'images_test_50Hz_xxx'` and `'images_test_60Hz_xxx'`, where xxx may represent a person capturing the correponding dataset and a number used for distinguising it from other datasets
+  * Each subfolder has photo(s) organized by folder(s), where each subsubfolder may contain same-scene images taken under different shutter speed levels.
+  * Each subsubfolder should include image(s) whose filename has the form "stepx_y", where x represents the order of embedded ENF strength (x should be 1, 2, ... / Larger x contains a stronger ENF trace) and y is a reciprocal of the shutter speed used for the corresponding image.
+  * Each subsubfolder should have the following three .txt files:
 	  1) `camera_model.txt`: includes a camera model used for taking images
 	  2) `nonsmooth_region.txt`: includes the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
 	  3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
