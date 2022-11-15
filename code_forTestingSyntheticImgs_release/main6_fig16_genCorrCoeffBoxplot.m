@@ -19,6 +19,6 @@ col_cnt = 32;
 enf_strength_arr = [0 2^(-1) 2^(-0.5) 2^0 2^(0.5) 2^1 2^2 2^3 2^4]; %[0 0.5 1 2 4 8 16];
 
 
-%% generate entropy margin boxplot
+%% generate correlation coefficient boxplot for performance comparison of entropy minimization and curve fitting
 
 func_genCorrCoeffBoxplot(mat_file_base_name1, mat_file_base_name2, fitting_results_flag, colSelect_mode, col_cnt, enf_strength_arr);
