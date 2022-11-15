@@ -7,7 +7,7 @@
   * Each subfolder has photo(s) organized by folder(s), where each subsubfolder may contain same-scene images taken under different shutter speed levels.
   * Each subsubfolder should include image(s) whose filename has the form "stepx_y", where x represents the order of embedded ENF strength (x should be 1, 2, ... / Larger x contains a stronger ENF trace) and y is a reciprocal of the shutter speed used for the corresponding image.
   * Each subsubfolder should have the following three .txt files:
-	  1) `camera_model.txt`: includes a camera model used for taking images
+	  1) `camera_model.txt`: includes a camera model used for taking image(s)
 	  2) `nonsmooth_region.txt`: includes the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
 	  3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
   * Run the scripts named `'main1_fig18_testImgs.m'` and `'main4_testImgs_preModel.m'`, which will make folders named `'mat_results'` and `'mat_results_preModel'` under `./code_forTestingRealImgs_release/` and generate .mat files under those folders. The scripts will also create folders named `'fig_results'` and `'fig_results_preModel'` and generate figures like fig.18 in the paper 
