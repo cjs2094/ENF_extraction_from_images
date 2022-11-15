@@ -19,5 +19,5 @@
    * `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the slope-intercept form
    * `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the two-point form
    * `'main5_fig8_genHistsForEstimates.m'` generates histograms for estimates obtained from the entropy minimization
-   * `'main6_fig16_genCorrCoeffBoxplot.m'` generates a boxplot for entropy margins against ENF strengths
+   * `'main6_fig9_genEntropyMarginBoxplot.m'` generates a boxplot for entropy margins against ENF strengths
    * `'main6_fig16_genCorrCoeffBoxplot.m'` generates a boxplot for correlation coefficients against ENF amplitude
