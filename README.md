@@ -24,7 +24,7 @@ If you used any of the code or the dataset, please cite our paper as listed abov
 Matlab
 
 
-## Requirement
+## Note
 Each folder contains their own README.md file to walk you through how to use each implementation
 
 
