@@ -47,6 +47,20 @@ Matlab
 	  1) `camera_model.txt`: includes a camera model used for taking images
 	  2) `nonsmooth_region.txt`: includes the location for nonsmooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
 	  3) `smooth_region.txt`: includes the location for smooth region(s) of the form [x1 x2 y1 y2]. The x1 and x2 elements row-wise start and end points, respectively. The y1 and y2 elements column-wise start and end points, respectively.
+  * Run the scripts named `'main1_fig18_testImgs.m'` and `'main4_testImgs_preModel.m'`, which will make folders named `'mat_results'` and `'mat_results_preModel'` under `./code_forTestingRealImgs_release/` and generate .mat files under those folders. The scripts will also make folders named `'fig_results'` and `'fig_results_preModel'` and generate figures like fig.18 in the paper 
+
+
+## Usage
+* Open each following script and run sequentially each section divided by %%
+   * `'main2_fig11_drawRocCurves.m'` draws roc curves for the first and second-level decisions
+   * `'main3_fig6a_examEntropyChange.m'` generates a histogram of column's entropy increase due to ENF trace embedding
+   * `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the slope-intercept form
+   * `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the two-point form
+   * `'main5_fig8_genHistsForEstimates.m'` generates histograms for estimates obtained from the entropy minimization
+   * `'main6_fig16_genCorrCoeffBoxplot.m'` generates a boxplot for entropy margins against ENF strengths
+   * `'main6_fig16_genCorrCoeffBoxplot.m'` generates a boxplot for correlation coefficients against ENF amplitude
+
+
 
 #### Short note for Scripts:
 - The script `main1_real_testImgs` performs the curve fitting method and the entropy minimization method.
