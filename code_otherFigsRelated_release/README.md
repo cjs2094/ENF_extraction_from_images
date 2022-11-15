@@ -1,3 +1,5 @@
+# Code for generating other figures in the paper
+
 ## Preparation
 * Please download the video dataset named `'imgs_set.zip'` from the following URL:
 [...](...), upzip, and put it under the directory `./code_otherFigsRelated_release/`
