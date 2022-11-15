@@ -3,7 +3,7 @@
 ## Preparation
 * If you want to play with the dataset used in the paper, please download the mat dataset named `'mat_results.zip'` and image dataset named `'imgs_with_syn_enf.zip'` from the following URL:
 
-[...](...), upzip, and put them under the directory `./code_forTestingSyntheticImgs_release/`
+[https://ieee-dataport.org/documents/images-synthetic-enf-traces-and-related-dataset-enf-presence-classification-test](https://ieee-dataport.org/documents/images-synthetic-enf-traces-and-related-dataset-enf-presence-classification-test), upzip, and put them under the directory `./code_forTestingSyntheticImgs_release/`
 * If you want to examine your own image template(s), get your own image templates(s) ready and follow the procedures below
   * Create a folder named `'raw_imgs'`under the directory `./code_forTestingSyntheticImgs_release/` and put your image templates into the folder `'raw_imgs'`
   * Run the first two sections of the script named `'main1_testImgs.m'`, which will make folders named  `'mat_results'` and `'imgs_with_syn_enf'` under `./code_forTestingSyntheticImgs_release/`
