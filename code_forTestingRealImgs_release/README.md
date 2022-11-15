@@ -1,3 +1,5 @@
+# Code for testing images with real ENF traces and generating results
+
 ## Preparation
 * If you want to play with the datasets used in the paper, please download the mat datasets named `'mat_results.zip'` and `'mat_results_preModel.zip'` and image dataset named `'datasets.zip'` from the following URL:
 
