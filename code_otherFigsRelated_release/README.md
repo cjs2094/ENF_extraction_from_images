@@ -1,8 +1,7 @@
 # Code for generating other figures in the paper
 
 ## Preparation
-* Please download the video dataset named `'imgs_set.zip'` from the following URL:
-[...](...), upzip, and put it under the directory `./code_otherFigsRelated_release/`
+* Please download the video dataset named `'imgs_set.zip'` from the following URL: [https://ieee-dataport.org/documents/images-real-enf-traces-and-related-dataset-enf-presence-classification-test](https://ieee-dataport.org/documents/images-real-enf-traces-and-related-dataset-enf-presence-classification-test), upzip, and put it under the directory `./code_otherFigsRelated_release/`
 
 
 ## Usage
