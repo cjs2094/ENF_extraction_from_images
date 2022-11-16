@@ -1,9 +1,7 @@
 # Code for testing images with real ENF traces and generating results
 
 ## Preparation
-* If you want to play with the datasets used in the paper, please download the mat datasets named `'matResults.zip'` and `'matResults_preModel.zip'` and image dataset named `'datasets.zip'` from the following URL:
-
-[...](...), upzip, and put them under the directory `./code_forTestingRealImgs_release/`
+* If you want to play with the datasets used in the paper, please download the mat datasets named `'matResults.zip'` and `'matResults_preModel.zip'` and image dataset named `'datasets.zip'` from the following URL: [https://ieee-dataport.org/documents/images-real-enf-traces-and-related-dataset-enf-presence-classification-test](https://ieee-dataport.org/documents/images-real-enf-traces-and-related-dataset-enf-presence-classification-test), upzip, and put them under the directory `./code_forTestingRealImgs_release/`
 * If you want to examine your own image(s), get your own image templates(s) ready and follow the procedures below
   * Create a folder named `'datasets'` under the directory `./code_forTestingRealImgs_release/` and create two subfolders named `'images_test_50Hz_xxx'` and `'images_test_60Hz_xxx'`, where xxx may represent a person capturing the correponding dataset and a number used for distinguising it from other datasets
   * Each subfolder has photo(s) organized by folder(s), where each subsubfolder may contain same-scene images taken under different shutter speed levels.
