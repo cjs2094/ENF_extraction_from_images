@@ -2,8 +2,7 @@
 
 ## Preparation
 * If you want to play with the dataset used in the paper, please download the mat dataset named `'mat_results_syn.zip'` and image dataset named `'imgs_with_syn_enf.zip'` from the following URL:
-
-[...](...), upzip, and put them under the directory `./code_forTestingSyntheticImgs_release/`
+[https://ieee-dataport.org/documents/images-synthetic-enf-traces-and-related-dataset-enf-presence-classification-test](https://ieee-dataport.org/documents/images-synthetic-enf-traces-and-related-dataset-enf-presence-classification-test), upzip, and put them under the directory `./code_forTestingSyntheticImgs_release/`
 * If you want to examine your own image template(s), get your own image templates(s) ready and follow the procedures below
   * Create a folder named `'raw_imgs'`under the directory `./code_forTestingSyntheticImgs_release/` and put your image templates into the folder `'raw_imgs'`
   * Run the first two sections of the script named `'main1_testImgs.m'`, which will make folders named  `'mat_results_syn'` and `'imgs_with_syn_enf'` under `./code_forTestingSyntheticImgs_release/`
@@ -21,3 +20,5 @@
    * `'main4_fig15a_drawErrSurf_avgcols_slopeIntercept.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the slope-intercept form
    * `'main4_fig15b_drawErrSurf_avgcols_twoPoint.m'` generates error surfaces of a pair of search variables when $B(i)$ is parameterized in the two-point form
    * `'main5_fig8_genHistsForEstimates.m'` generates histograms for estimates obtained from the entropy minimization
+   * `'main6_fig9_genEntropyMarginBoxplot.m'` generates a boxplot for entropy margins against ENF strengths
+   * `'main6_fig16_genCorrCoeffBoxplot.m'` generates a boxplot for correlation coefficients against ENF amplitude
