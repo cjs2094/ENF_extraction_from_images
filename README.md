@@ -6,13 +6,13 @@ J. Choi, C.-W. Wong, A. Hajj-Ahmad, M. Wu, and Y. Ren, "[Invisible geolocation s
 
 ```bibtex
 @article{choi2022invisible,
-  title={Invisible Geolocation Signature Extraction From a Single Image},
+  title={Invisible geolocation signature extraction from a single image},
   author={Choi, Jisoo and Wong, Chau-Wai and Hajj-Ahmad, Adi and Wu, Min and Ren, Yanpin},
   journal={IEEE Transactions on Information Forensics and Security},
   volume={17},
   pages={2598--2613},
   year={2022},
-  month={Jun}
+  month={Jun.}
 }
 ```
 
@@ -30,3 +30,4 @@ Each folder contains their own README.md file to walk you through how to use eac
 
 ## Contact
 Jisoo Choi, email: [cjs2094@gmail.com](cjs2094@gmail.com)
+Chau-Wai Wong, email: [chauwai.wong@ncsu.edu](chauwai.wong@ncsu.edu)
