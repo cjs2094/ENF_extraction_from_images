@@ -30,4 +30,5 @@ Each folder contains their own README.md file to walk you through how to use eac
 
 ## Contact
 Jisoo Choi, email: [cjs2094@gmail.com](cjs2094@gmail.com)
+
 Chau-Wai Wong, email: [chauwai.wong@ncsu.edu](chauwai.wong@ncsu.edu)
