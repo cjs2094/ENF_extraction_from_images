@@ -1,3 +1,5 @@
+# Code for testing images with synthetic ENF traces and generating results
+
 ## Preparation
 * If you want to play with the dataset used in the paper, please download the mat dataset named `'mat_results_syn.zip'` and image dataset named `'imgs_with_syn_enf.zip'` from the following URL:
 
